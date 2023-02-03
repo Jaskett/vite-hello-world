@@ -1,10 +1,12 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppBonus from './components/AppBonus.vue';
 
 export default {
   name: "App",
   components: {
-    AppTitle
+    AppTitle,
+    AppBonus
   }
 }
 </script>
@@ -19,6 +21,7 @@ export default {
     </a>
   </div>
   <AppTitle />
+  <AppBonus />
 </template>
 
 <style scoped>
